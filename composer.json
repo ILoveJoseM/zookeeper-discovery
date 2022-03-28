@@ -1,0 +1,41 @@
+{
+  "name": "jose-chan/cloud-zookeeper-discovery",
+  "description": "zookeeper discovery",
+  "keywords": ["cloud", "zookeeper", "discovery"],
+  "authors": [{
+    "name": "JoseChan",
+    "email": "524233828@qq.com"
+  }],
+  "license": "MIT",
+  "type": "library",
+  "require": {
+    "php": "^7.2",
+    "ext-zookeeper" : "*",
+    "jose-chan/cloud-commons": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "JoseChan\\Cloud\\Zookeeper\\Discovery\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "JoseChan\\Cloud\\Zookeeper\\Discovery\\Tests\\": "tests/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "dont-discover": [
+      ],
+      "providers": [
+      ]
+    }
+  },
+  "config": {
+    "preferred-install": "dist",
+    "sort-packages": true,
+    "optimize-autoloader": true
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
