@@ -28,6 +28,7 @@
       "dont-discover": [
       ],
       "providers": [
+        "JoseChan\\Cloud\\Zookeeper\\Discovery\\Providers\\ZookeeperDiscoveryProvider"
       ]
     }
   },

@@ -138,4 +138,14 @@ class ZookeeperDiscovery implements DiscoveryClient
     {
         return $this->client;
     }
+
+    /**
+     * @return array
+     */
+    public function getServiceNode(): array
+    {
+        return $this->serviceNode;
+    }
+
+
 }
