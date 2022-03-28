@@ -18,7 +18,7 @@ class ZookeeperTest extends TestCase
     {
 //        try{
             //链接zookeeper
-            $this->client = new \Zookeeper("47.92.23.201:2181");
+            $this->client = new \Zookeeper("127.0.0.1:2181");
 
             $this->client->get("/zget", [$this, "watcher"]);
 //        } catch (\Exception $exception){
